@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KNDCalendarView_Example' do
+  pod 'KNDCalendarView', :path => '../'
+
+  target 'KNDCalendarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
