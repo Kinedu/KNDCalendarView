@@ -1,0 +1,16 @@
+PODS:
+  - KNDCalendarView (0.1.0)
+
+DEPENDENCIES:
+  - KNDCalendarView (from `../`)
+
+EXTERNAL SOURCES:
+  KNDCalendarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KNDCalendarView: ff29dc776212d0aeaa84816b37c87ed5688e382d
+
+PODFILE CHECKSUM: 0d01e7356e41384dcde106c4346980c0748c7883
+
+COCOAPODS: 1.5.3

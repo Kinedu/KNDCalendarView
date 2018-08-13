@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KNDCalendarView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KNDCalendarView.'
+  s.summary          = 'KNDCalendarView has been created to show a grid calendar on a single view, easily. Based on the open source project https://github.com/Akhilendra/calenderAppiOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Roger Contreras/KNDCalendarView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Roger Contreras' => 'roger@kinedu.com' }
-  s.source           = { :git => 'https://github.com/Roger Contreras/KNDCalendarView.git', :tag => s.version.to_s }
+  s.homepage         = 'https://github.com/Kinedu/KNDCalendarView'
+  s.screenshots     = 'screenshot'
+  s.license          = { :type => 'GNU', :file => 'LICENSE' }
+  s.author           = { 'Roger Contreras' => 'roger@kinedu.com', 'Juan Sosa' => 'juan@kinedu.com', 'Alex de la Rosa' => 'alex@kinedu.com' }
+  s.source           = { :git => 'https://github.com/Kinedu/KNDCalendarView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

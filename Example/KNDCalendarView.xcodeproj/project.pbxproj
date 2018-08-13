@@ -14,6 +14,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		96D973279C1F922B1F43E3BB /* Pods_KNDCalendarView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C63C8FB0DF3F12C705B18CA /* Pods_KNDCalendarView_Tests.framework */; };
+		DB2C6E3C2121E78A0073439C /* KNDCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C6E3B2121E78A0073439C /* KNDCalendarView.swift */; };
+		DB2C6E3E2121E83E0073439C /* KNDCalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C6E3D2121E83E0073439C /* KNDCalendarEvent.swift */; };
+		DB2C6E402121E8A30073439C /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C6E3F2121E8A30073439C /* MonthView.swift */; };
+		DB2C6E422121F2C60073439C /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C6E412121F2C60073439C /* WeekdaysView.swift */; };
+		DB2C6E442122255C0073439C /* screenshot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB2C6E432122255C0073439C /* screenshot.jpeg */; };
 		F085C6C4FCA6017513923C86 /* Pods_KNDCalendarView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075FE5B33934FAFA3F9EF596 /* Pods_KNDCalendarView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +46,17 @@
 		607FACE51AFB9204008FA782 /* KNDCalendarView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNDCalendarView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62BE3295946596CC818FC74B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62BE3295946596CC818FC74B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7683BF1C5D16868E2615FE0C /* Pods-KNDCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNDCalendarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNDCalendarView_Tests/Pods-KNDCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C7A9C7B67BF4206833833EE /* Pods-KNDCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNDCalendarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNDCalendarView_Example/Pods-KNDCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C589E77505CA5C9D7CC18512 /* KNDCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KNDCalendarView.podspec; path = ../KNDCalendarView.podspec; sourceTree = "<group>"; };
-		CF199C2F1A37A1330F7C7483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C589E77505CA5C9D7CC18512 /* KNDCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KNDCalendarView.podspec; path = ../KNDCalendarView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF199C2F1A37A1330F7C7483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D201E7F5D1434E431906437E /* Pods-KNDCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNDCalendarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNDCalendarView_Example/Pods-KNDCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB2C6E3B2121E78A0073439C /* KNDCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNDCalendarView.swift; sourceTree = "<group>"; };
+		DB2C6E3D2121E83E0073439C /* KNDCalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNDCalendarEvent.swift; sourceTree = "<group>"; };
+		DB2C6E3F2121E8A30073439C /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		DB2C6E412121F2C60073439C /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		DB2C6E432122255C0073439C /* screenshot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				DB2C6E432122255C0073439C /* screenshot.jpeg */,
 				C589E77505CA5C9D7CC18512 /* KNDCalendarView.podspec */,
 				CF199C2F1A37A1330F7C7483 /* README.md */,
 				62BE3295946596CC818FC74B /* LICENSE */,
@@ -146,6 +157,10 @@
 				D201E7F5D1434E431906437E /* Pods-KNDCalendarView_Example.release.xcconfig */,
 				2B70A75A46123A3DB8C93A17 /* Pods-KNDCalendarView_Tests.debug.xcconfig */,
 				7683BF1C5D16868E2615FE0C /* Pods-KNDCalendarView_Tests.release.xcconfig */,
+				DB2C6E3B2121E78A0073439C /* KNDCalendarView.swift */,
+				DB2C6E3D2121E83E0073439C /* KNDCalendarEvent.swift */,
+				DB2C6E3F2121E8A30073439C /* MonthView.swift */,
+				DB2C6E412121F2C60073439C /* WeekdaysView.swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -212,10 +227,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7BYW6R9QKC;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7BYW6R9QKC;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -246,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				DB2C6E442122255C0073439C /* screenshot.jpeg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -323,7 +341,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DB2C6E422121F2C60073439C /* WeekdaysView.swift in Sources */,
+				DB2C6E402121E8A30073439C /* MonthView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				DB2C6E3E2121E83E0073439C /* KNDCalendarEvent.swift in Sources */,
+				DB2C6E3C2121E78A0073439C /* KNDCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +491,7 @@
 			baseConfigurationReference = 9C7A9C7B67BF4206833833EE /* Pods-KNDCalendarView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BYW6R9QKC;
 				INFOPLIST_FILE = KNDCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +507,7 @@
 			baseConfigurationReference = D201E7F5D1434E431906437E /* Pods-KNDCalendarView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BYW6R9QKC;
 				INFOPLIST_FILE = KNDCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B70A75A46123A3DB8C93A17 /* Pods-KNDCalendarView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7BYW6R9QKC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7683BF1C5D16868E2615FE0C /* Pods-KNDCalendarView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7BYW6R9QKC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
