@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#  s.description      = <<-DESC
+#TODO: Add long description of the pod here.
+#                       DESC
 
   s.homepage         = 'https://github.com/Kinedu/KNDCalendarView'
-  s.screenshots     = 'screenshot'
+  # s.screenshots     = 'screenshot'
   s.license          = { :type => 'GNU', :file => 'LICENSE' }
-  s.author           = { 'Roger Contreras' => 'roger@kinedu.com', 'Juan Sosa' => 'juan@kinedu.com', 'Alex de la Rosa' => 'alex@kinedu.com' }
+  s.author           = { 'Rogelio Contreras' => 'roger@kinedu.com', 'Juan Sosa' => 'juan@kinedu.com', 'Alex de la Rosa' => 'alex@kinedu.com' }
   s.source           = { :git => 'https://github.com/Kinedu/KNDCalendarView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
