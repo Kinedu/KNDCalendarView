@@ -1,7 +1,4 @@
 # KNDCalendarView
-
-[![CI Status](https://img.shields.io/travis/Roger Contreras/KNDCalendarView.svg?style=flat)](https://travis-ci.org/Roger Contreras/KNDCalendarView)
-[![Version](https://img.shields.io/cocoapods/v/KNDCalendarView.svg?style=flat)](https://cocoapods.org/pods/KNDCalendarView)
 [![License](https://img.shields.io/cocoapods/l/KNDCalendarView.svg?style=flat)](https://cocoapods.org/pods/KNDCalendarView)
 [![Platform](https://img.shields.io/cocoapods/p/KNDCalendarView.svg?style=flat)](https://cocoapods.org/pods/KNDCalendarView)
 
@@ -22,7 +19,7 @@ pod 'KNDCalendarView'
 
 ## Author
 
-Roger Contreras, roger@kinedu.com
+Roger Contreras
 
 ## License
 
